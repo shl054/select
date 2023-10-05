@@ -24,5 +24,29 @@ html, body {
   height:33%;
 } .select img{
   width:100%;
+} .sel {
+  margin:0;
   height:100%;
+}.sel>li{
+  list-style:none;
+  float:left;
+  width:40%;
+  margin:0 2.5%;
+  height:100%;
+  text-align:center;
+  position:relative;
+} .sel_desc, .sel_nav {
+  margin:0;
+  padding:0;
+  height:100%;
+}.sel_desc>li, .sel_nav>li{
+  list-style:none;
+  float:left;
+  width:95%;
+  padding:2.5%;
+  margin:2.5% 0;
+  height:auto;
+  position:relative;
+} .sel_nav img{
+  width:100%;
 }
